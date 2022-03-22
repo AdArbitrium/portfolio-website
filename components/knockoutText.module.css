@@ -1,0 +1,48 @@
+.backdrop {
+background-size: contain;
+background-position: center;
+
+margin: auto;
+margin-top: 40px;
+width: 75vw;
+}
+
+.backdrop.taito {
+background-image: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/9/30/1412093936988/368059d2-dbe6-40f7-93e1-d486738bf8f2-2060x1465.jpeg?width=700&quality=85&auto=format&fit=max&s=45e30c29104dd15016ba2ffc1adba883");
+background-repeat:no-repeat;
+background-size: cover;
+background-position: 25% 75%;
+
+}
+
+
+.text {
+color: white;
+border: 4px white solid;
+mix-blend-mode: hard-light;
+font: bolder 10vw monospace;
+text-align: center;
+margin: 0;
+cursor: pointer;
+transition: text-indent 0.5s;
+opacity: 0.80;
+}
+
+.text:hover {
+text-indent: 5px;
+transition: text-indent 0.5s;
+}
+
+.text:hover::before {
+display: inline-block;
+content: "🥊";
+}
+
+.text.taito {
+font-family: "Alfa Slab One", cursive;
+background-color: rgb(19, 17, 18);
+outline: 4px rgba(59, 2, 6, 1) solid;
+}
+
+
+

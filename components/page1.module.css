@@ -1,0 +1,31 @@
+
+.Sect1{
+    background: black  ;
+    background-image: url("https://i.pinimg.com/originals/8e/6a/91/8e6a911d59bc932cb300aa51d19f5961.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat-y;
+    background-position:right;
+    background-size: 60% 100%;
+
+}
+
+
+
+.Sect2{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    width: 100vw;
+    height: 150vh;
+}
+
+.Sect3{
+    background-color: azure;
+    width: 100vw;
+    height: 100vh;  
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px; 
+    column-gap: 10px;
+    row-gap: 15px;
+    text-align: center;
+}
+
